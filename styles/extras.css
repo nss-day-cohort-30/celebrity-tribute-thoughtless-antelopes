@@ -1,0 +1,9 @@
+* {
+    background-color: black;
+    color: snow;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
