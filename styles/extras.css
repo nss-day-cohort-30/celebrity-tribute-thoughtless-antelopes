@@ -1,120 +1,92 @@
-*, *:before, *:after {
-    /* background-color: #D6CFCB; */
-    color: #706677
-    box-sizing: inherit;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
 }
 
-html {
-    box-sizing: border-box;
-  }
-
-.videoDiv {
-    background-color: black;
+.wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #565264;
 }
 
-.videoDiv h1,
-.videoDiv h2 {
-    color: white;
-    padding: 10px;
-}
-
-.resourceLinks,
-.webLinks,
-.videoLink {
-    background-color: black;
-    color: white;
-    display: inline;
-    padding: 5px;
-}
-
-header {
-    height: 100px;
-    widows: cover;
-    background-color:#565264;  
-    /* border: 1px solid red;  */
-}
-
-.navBar {
+.nav-container {
+    background-color: #A6808C;
+    padding: 20px;
     display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: transparent;
-  }
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+nav {
+    /* border: 1px solid red; for debugging */
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.video-container,
+.charity-container,
+.website-container, 
+.resource-container {
+    /* border: 1px solid red; for debugging */
+    background-color: #CCB7AE;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.webLinks {
+    margin-bottom: 75px;
+}
+
+.webLinks,
+.resourceLinks,
+.charityCauses {
+    display: flex;  
+    justify-content: center;
+    justify-items: space-around;  
+    padding: 10px;
+    /* border: 1px solid red; for debugging */
+}
+
+#memeLink,
+#imgLink {
+    height: 100px;
+    width: auto;   
+    padding: 10px; 
+    border-radius: 15px;
+}
 
 h1,
 h2,
 h3 {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    color: black;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid red; */
-}
-
-.resourceLinks,
-.webLinks,
-.charityCauses {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    /* border: 1px solid red; */
+    text-align: center;
     padding: 10px;
+    background-color: #CCB7AE; 
 }
-
-#imgLink {
-    display: flex;
-    border-radius: 10%;
-    padding: 5px;
-    width: 175px;
-    height: 100px;
-}
-
-#memeLink {
-    display: flex;
-    border-radius: 10%;
-    padding: 5px;
-    width: auto;
-    height: 100px;
-}
-
-footer {
-    background-color: white;
-    padding: 3px;
-}
-
-#holeLogo,
-#memoryLogo,
-#hacLogo,
-#myelomaLogo
- {
-    display: flex;
-    width: auto;
-    height: 100px;
-    background-color: white;
-    padding: 20px;
-}
-
-.charityCauses {
-    background-color: white;
-}
-
-#myelomaLogo {
-    background-color: transparent;  
-}
-
-#memoryLogo {
-    height: px;
-}
-
-.video-container {
-    border: 1px solid red;
-    padding: 5px;
+ 
+.youtube-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
+
+.footer-container {
+    background-color: #A6808C;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#danny {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+}
+
+.videoLink {
+    padding: 5px;
+}
