@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #565264;
+}
+
+.wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #565264;
+}
+
+.navbar {
+    background-color: #A6808C;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    margin-bottom: 100px;
+  }
+ 
+  .navbar a {
+    float: left;
+    color: #565264;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  .navbar a:hover {
+    background-color: #CCB7AE;
+    color: #706677;
+  }
+ 
+  .navbar a.active {
+    background-color:#565264;
+    color:#CCB7AE;
+  }
+
+/* .nav-container {
+    background-color: #A6808C;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+} */
+
+/* nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+} */
+
+.video-container,
+.charity-container,
+.website-container, 
+.resource-container {
+    /* border: 1px solid red; for debugging */
+    background-color: #CCB7AE;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.resource-container {
+    margin-top: 60px;
+}
+
+.webLinks {
+    margin-bottom: 75px;
+}
+
+.webLinks,
+.resourceLinks,
+.charityCauses {
+    display: flex;  
+    justify-content: center;
+    justify-items: space-around;  
+    padding: 10px;
+    /* border: 1px solid red; for debugging */
+}
+
+#memeLink,
+#imgLink {
+    height: 100px;
+    width: auto;   
+    padding: 10px; 
+    border-radius: 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    padding: 10px;
+    background-color: #CCB7AE; 
+}
+ 
+.youtube-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.footer-container {
+    background-color: #A6808C;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#danny {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+}
+
+.videoLink {
+    padding: 5px;
+}
