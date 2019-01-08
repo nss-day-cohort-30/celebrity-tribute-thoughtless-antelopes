@@ -1,9 +1,120 @@
-* {
+*, *:before, *:after {
+    /* background-color: #D6CFCB; */
+    color: #706677
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+.videoDiv {
     background-color: black;
-    color: snow;
+}
+
+.videoDiv h1,
+.videoDiv h2 {
+    color: white;
+    padding: 10px;
+}
+
+.resourceLinks,
+.webLinks,
+.videoLink {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+
+header {
+    height: 100px;
+    widows: cover;
+    background-color:#565264;  
+    /* border: 1px solid red;  */
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+  }
+
+h1,
+h2,
+h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
 }
 
 .wrapper {
     display: flex;
     justify-content: center;
+    /* border: 1px solid red; */
 }
+
+.resourceLinks,
+.webLinks,
+.charityCauses {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+#imgLink {
+    display: flex;
+    border-radius: 10%;
+    padding: 5px;
+    width: 175px;
+    height: 100px;
+}
+
+#memeLink {
+    display: flex;
+    border-radius: 10%;
+    padding: 5px;
+    width: auto;
+    height: 100px;
+}
+
+footer {
+    background-color: white;
+    padding: 3px;
+}
+
+#holeLogo,
+#memoryLogo,
+#hacLogo,
+#myelomaLogo
+ {
+    display: flex;
+    width: auto;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+.charityCauses {
+    background-color: white;
+}
+
+#myelomaLogo {
+    background-color: transparent;  
+}
+
+#memoryLogo {
+    height: px;
+}
+
+.video-container {
+    border: 1px solid red;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
