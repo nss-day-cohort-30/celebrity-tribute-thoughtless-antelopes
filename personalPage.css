@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #706677;
+  }
+  .topnav {
+      background-color: #D6CFCB;
+  }
+  h1 {
+      display: flex;
+      justify-content: center;
+      color: #D6CFCB;
+      border: solid #A6808C;
+  }
+  #vomitingDevito { 
+      display: flex;
+      justify-content: flex-end;
+      height: 100px;
+      position: fixed;
+      bottom: 0;
+  }
+ 
