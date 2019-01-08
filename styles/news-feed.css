@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #A6808C;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+  }
+ 
+  .navbar a {
+    float: left;
+    color: #565264;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  .navbar a:hover {
+    background-color: #CCB7AE;
+    color: #706677;
+  }
+ 
+  .navbar a.active {
+    background-color:#565264;
+    color:#CCB7AE;
+  }
+
+body {
+    background-image: url("https://www.dropbox.com/s/u8trwn4wckx2vfm/danny%20small%20transparent.png?raw=1");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    background-color: #706677;
+    color: #D6CFCB;
+}
+
+.newsFeedBox {
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: row;
+    width: 475px;
+    margin-bottom: 15px;
+}
+
+.newsFeedText {
+    padding: 15px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D6CFCB;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1 {
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+    color: #CCB7AE;
+    font-size: 40px;
+}
+
+h2 {
+    color: #CCB7AE;
+    font-size: x-large;
+}
+
+#prettyDanny {
+    position: fixed;
+    bottom: 0px;
+    width: 300px;
+}
+
+.footer-container {
+    background-color: #A6808C;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+ }
