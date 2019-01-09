@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    margin: 7px;
+    padding: 0;
+    background-color: #706677;
+  }
+
+  .navbar {
+    background-color: #A6808C;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    opacity: 0.6;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 60%;
+  }
+  
+  .navbar:hover {
+      opacity: 0.9;
+  }
+ 
+  .navbar a {
+    float: left;
+    color: #565264;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  .navbar a:hover {
+    background-color: #CCB7AE;
+    color: #706677;
+  }
+ 
+  .navbar a.active {
+    background-color:#565264;
+    color:#CCB7AE;
+  }
+
+  h1 {
+      display: flex;
+      justify-content: center;
+      background-color: #D6CFCB; 
+      color: #565264;
+      border: solid #A6808C;
+      margin-top: 60px;
+  }
+
+  .danny-container {
+    margin: 1px 10px 1px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .devito-personal {
+      display: flex;
+      justify-content: space-around;
+      background-color:#D6CFCB;
+      border: black solid;
+  }
+
+   .danny-headshot {
+      width: 30%;
+      height: 30%;
+      padding: 8px;
+      margin: 10px;
+  } 
+
+  /* .danny-headshot2 {
+    width: 30%;
+    height: 30%;
+    padding: 8px;
+    margin: 10px;
+}  */
+  .rhea-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#D6CFCB;
+    border: black solid;
+    margin: 12px 10px 12px 10px;
+}
+
+.spouse-headshot {
+
+}
+
+.spouse-personal-info {
+
+}
+ .children-container {
+    display: flex;
+    justify-content: space-around;
+    background-color:#D6CFCB;
+    border: black solid;
+    margin: 1px 10px 1px 10px;
+ }
+
+ .child {
+     flex-basis: 31%;
+ }
+
+ .child__photo {
+     width: 200px;
+ }
+  
+ img {
+     height: 300px;
+     border: 1px solid black;
+     border-radius: 20px;
+ }
+
+ .lucy-headshot,
+ .jake-headshot,
+ .grace-headshot {
+     
+     position: relative;
+
+ } 
+ #lucy {
+     height: 350px;
+     width: auto;
+ }
+
+ .lucy-personal-info, 
+ .jake-personal-info,
+ .grace-personal-info {
+
+ }
+
+ .jake-container {
+
+ }
+
+ .jake-headshot {
+
+ }
+
+
+
+ .grace-container {
+
+ }
+
+ .grace-headshot {
+
+ }
+
+
+  .main-container img {
+      display: flex;
+
+      height: 100px;
+      width: auto;
+  }
+ 
+
+  #vomitingDevito { 
+      display: flex;
+      justify-content: flex-end;
+      height: 100px;
+      position: fixed;
+      bottom: 0;
+  }
+
+  .footer-container {
+    background-color: #A6808C;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+ }
+  
