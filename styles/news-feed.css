@@ -104,3 +104,8 @@ h2 {
     text-align: center;
     margin-top: 10px;
  }
+
+#prettyDanny:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
