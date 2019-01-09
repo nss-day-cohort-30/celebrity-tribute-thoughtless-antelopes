@@ -52,7 +52,7 @@ body {
     margin-bottom: 15px;
     box-shadow: 0px 0px 15px #565264;
     background-color:rgba(214,207,203, 0.15);
-    border-radius: 35px;
+    border-radius: 0px 35px 0px 35px;
 }
 
 .newsFeedText {
@@ -97,7 +97,6 @@ h2 {
     bottom: 0px;
     width: 300px;
     height: 169px;
-    display: inline-block;
 }
 
 .sadDanny {
@@ -125,4 +124,8 @@ h2 {
     padding: 20px;
     text-align: center;
     margin-top: 10px;
+ }
+
+ .imgRound {
+    border-bottom-left-radius: 35px;
  }
