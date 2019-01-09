@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -60,6 +61,7 @@ body {
     display: flex;
     width: 100%;
     flex-direction: column;
+    margin: 0px 0px 40px 0px;
 }
 
 h2 {
@@ -101,9 +103,16 @@ h3 {
     width: 90%;
 }
 
+#dannyFloat {
+    position: fixed;
+    bottom: 0px;
+    width: 150px;
+}
+
 .footer-container {
     background-color: #A6808C;
     padding: 20px;
     text-align: center;
     margin-top: 10px;
+    color: #D6CFCB;
  }
