@@ -16,13 +16,21 @@ body {
     background-attachment: fixed;
 }
 
+ 
+
 .navbar {
     background-color: #A6808C;
     overflow: hidden;
     width: 100%;
     position: fixed;
     top: 0%;
-    margin-bottom: 100px;
+    opacity: 0.6;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 60%;
+  }
+  
+  .navbar:hover {
+      opacity: 0.9;
   }
  
   .navbar a {
