@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 .navbar {
     background-color: #A6808C;
     overflow: hidden;
@@ -31,12 +35,13 @@ body {
 
 #topHeader {
     text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
+    font-weight: bolder;
+    font-size: 2em;
     margin: 50px 0px 5px 0px;
     color: #565264; 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 #imgDiv {
@@ -58,9 +63,10 @@ body {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bold;
-    color: #565264;
+    color: #565264;  
+    margin: 10px 0px 0px 0px;
 }
 
 h3 {
@@ -68,6 +74,7 @@ h3 {
     width: 100%;
     font-size: 1.7em;
     color: #565264; 
+    margin: 8px 0px 0px 0px;
 }
 
 .genre {
@@ -79,11 +86,13 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 30%;
     margin: 5px 0px;
     font-weight: bold;
-    color: #565264;
+    font-size: 1.2em;
+    color: #D6CFCB;
+    background-color:#565264;
 }
 
 .actorImg {
