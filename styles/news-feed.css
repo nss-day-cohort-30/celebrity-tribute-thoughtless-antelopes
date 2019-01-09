@@ -92,10 +92,32 @@ h2 {
     font-size: x-large;
 }
 
-#prettyDanny {
+.prettyDanny {
     position: fixed;
     bottom: 0px;
     width: 300px;
+    height: 169px;
+    display: inline-block;
+}
+
+.sadDanny {
+    position: fixed;
+    bottom: 0px;
+    width: 300px;
+    height: 169px;
+}
+
+
+.happyDanny {
+    position: fixed;
+    bottom: 0px;
+    width: 300px;
+    height: 169px;
+    opacity: 0;
+}
+
+.happyDanny:hover {
+    opacity: 1;
 }
 
 .footer-container {
@@ -104,8 +126,3 @@ h2 {
     text-align: center;
     margin-top: 10px;
  }
-
-#prettyDanny:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
