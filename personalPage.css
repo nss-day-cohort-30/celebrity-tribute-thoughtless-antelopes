@@ -1,3 +1,6 @@
+* {
+    margin: 0px;
+}
 body {
     font-family: sans-serif;
     margin: 7px;
@@ -30,12 +33,23 @@ body {
     color:#CCB7AE;
   }
 
-  h1 {
+  .page-title h1 {
       display: flex;
       justify-content: center;
       background-color: #D6CFCB; 
       color: #565264;
       border: solid #A6808C;
+  }
+
+  h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+  }
+
+  .spouse-headshot p {
+    display: flex;
+    justify-content: center;
   }
 
   .danny-container {
@@ -82,19 +96,30 @@ body {
 }
  .children-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     background-color:#D6CFCB;
     border: black solid;
-    margin: 1px 10px 1px 10px;
+    /* margin: 1px 10px 1px 10px; */
  }
 
- .child {
-     flex-basis: 31%;
- }
-
- .child__photo {
-     width: 200px;
- }
+ .main-child-container {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ background-color:#D6CFCB;
+ /* border: 1px solid black; */
+ margin: 1px 10px 1px 10px; 
+}
+ 
+.children {
+    /* background-color: red; */
+    justify-content: space-around;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+} 
   
  img {
      height: 300px;
@@ -102,50 +127,17 @@ body {
      border-radius: 20px;
  }
 
- .lucy-headshot,
- .jake-headshot,
- .grace-headshot {
-     
-     position: relative;
-
- } 
- #lucy {
-     height: 350px;
-     width: auto;
+ .child__photo {
+     display: flex;
+     height: 90%;
+     width: 90%;
+     /* border: 1px solid yellow; */
  }
 
- .lucy-personal-info, 
- .jake-personal-info,
- .grace-personal-info {
+ /* .children h4 {
+     /* border: 1px solid green;
+ } */ 
 
- }
-
- .jake-container {
-
- }
-
- .jake-headshot {
-
- }
-
-
-
- .grace-container {
-
- }
-
- .grace-headshot {
-
- }
-
-
-  .main-container img {
-      display: flex;
-
-      height: 100px;
-      width: auto;
-  }
- 
 
   #vomitingDevito { 
       display: flex;
