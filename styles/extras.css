@@ -5,14 +5,40 @@
     font-family: sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+body {
+    background-image: url(https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492120428/articles/2016/01/24/danny-devito-is-feeling-the-bern-despises-disgusting-donald-trump/160123-stern-devito-tease_iy4lx3);
+    padding-left: 50px;
+    padding-right: 50px; 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ 
+
+>>>>>>> d0c0d8c75c0c7aa7c4dea54fbcaeab3d57a15257
 .navbar {
     background-color: #A6808C;
     overflow: hidden;
     width: 100%;
     position: fixed;
     top: 0%;
+<<<<<<< HEAD
     left: 0;
     margin-bottom: 100px;
+=======
+    opacity: 0.6;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 60%;
+  }
+  
+  .navbar:hover {
+      opacity: 0.9;
+>>>>>>> d0c0d8c75c0c7aa7c4dea54fbcaeab3d57a15257
   }
  
   .navbar a {
