@@ -13,14 +13,14 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
 .wrapper {
     padding: 60px 50px 0px 50px;
+    padding-left: 50px;
+    padding-right: 50px; 
 }
 
 /* Navigation Bar */
  
-
 .navbar {
     background-color: #A6808C;
     overflow: hidden;
@@ -48,7 +48,6 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-
 .navbar a:hover {
     background-color: #CCB7AE;
     color: #706677;
@@ -73,23 +72,8 @@ h3 {
 h4 {
     text-align: center;
     padding: 10px;
-}
-body {
-    background-image: url(https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492120428/articles/2016/01/24/danny-devito-is-feeling-the-bern-despises-disgusting-donald-trump/160123-stern-devito-tease_iy4lx3);
-    padding-left: 50px;
-    padding-right: 50px; 
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-/* .nav-container {
-    background-color: #A6808C;
+    background-color: #A6808C; 
     border-radius: 5px;
-     
 }
 
 /* Main Containers */
@@ -202,6 +186,7 @@ border: 0;
 
 .videoBox {
     overflow: hidden;
+    margin-top: 10px;
 }
 
 .resp-iframe {
@@ -249,17 +234,4 @@ border: 0;
 
     }
 
-    /* .videoLink {
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-        margin-top: 30px;
-        box-shadow: 5px 5px 20px black;
-        width: 448px;
-        height: 272px;
-        position: relative;
-        z-index: 0;
-    } */
-    
-    
 }
