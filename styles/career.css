@@ -6,8 +6,15 @@
     width: 100%;
     position: fixed;
     top: 0%;
+    opacity: 0.6;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 60%;
   }
   
+  .navbar:hover {
+      opacity: 0.9;
+  }
+
   .navbar a {
     float: left;
     color: #565264;
@@ -69,6 +76,10 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
+    color: #CCB7AE;
+}
+
+h3 {
     color: #CCB7AE;
 }
 
