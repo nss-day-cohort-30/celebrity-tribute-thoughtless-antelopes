@@ -15,8 +15,7 @@ body {
 }
 
 .wrapper {
-    padding-left: 50px;
-    padding-right: 50px; 
+    padding: 60px 50px 0px 50px;
 }
 
 /* Navigation Bar */
@@ -29,25 +28,26 @@ body {
     top: 0%;
     margin-bottom: 100px;
     box-shadow: 2px 2px 20px black;
+    z-index: 1;
 }
  
 .navbar a {
-float: left;
-color: #565264;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+    float: left;
+    color: #565264;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .navbar a:hover {
-background-color: #CCB7AE;
-color: #706677;
+    background-color: #CCB7AE;
+    color: #706677;
 }
 
 .navbar a.active {
-background-color:#565264;
-color:#CCB7AE;
+    background-color:#565264;
+    color:#CCB7AE;
 }
 
 /* Headers */
@@ -58,12 +58,15 @@ h3 {
     text-align: center;
     padding: 10px;
     background-color: #CCB7AE; 
+    border-radius: 5px;
 }
 
 h4 {
     text-align: center;
     padding: 10px;
-    background-color: #A6808C; 
+    background-color: #A6808C;
+    border-radius: 5px;
+     
 }
 
 /* Main Containers */
@@ -75,13 +78,10 @@ h4 {
     /* border: 1px solid red; for debugging */
     background-color: rgba(94, 33, 33, 0.35);
     border-radius: 15px;
-    padding: 10px;
+    padding: 10px 10px 100px 10px;
     margin-bottom: 5px;
     box-shadow: 1px 5px 30px gray;
-}
-
-.resource-container {
-    margin-top: 60px;
+    z-index: -1;
 }
 
 /* Containers for links */
@@ -97,15 +97,15 @@ h4 {
     /* border: 1px solid red; for debugging */
 }
 
-.youtube-container {
+.moreVids {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    justify-content: space-around;
+    margin-top: 10px;   
 }
 
 /* Image and video links */
 
-#memLink
+#memLink,
 #memeLink,
 #imgLink
  {
@@ -120,7 +120,7 @@ h4 {
 
 #memLink {
     height: 100px;
-    width: auto;   
+    width: 100px;   
     padding: 10px; 
     border-radius: 15px;
     opacity: 1;
@@ -129,9 +129,24 @@ h4 {
 }
 
 .videoLink {
+    display: flex;
+    justify-content: center;
     padding: 5px;
     margin-top: 30px;
     box-shadow: 5px 5px 20px black;
+    width: 448px;
+    height: 272px;
+    position: relative;
+    z-index: 0;
+}
+
+.resp-iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
 }
 
 /* footer */
@@ -161,8 +176,6 @@ h4 {
     .video-container embed {
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     }
 
     .youtube-container {
@@ -202,7 +215,16 @@ h4 {
     }
 
     .videoLink {
-        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin-top: 30px;
+        box-shadow: 5px 5px 20px black;
+        width: 448px;
+        height: 272px;
+        position: relative;
+        z-index: 0;
     }
+    
     
 }
