@@ -7,12 +7,14 @@
 
 body {
     background-color: #565264;
+    padding-left: 50px;
+    padding-right: 50px; 
 }
 
 .wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: #565264;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+    /* background-color: #565264; */
 }
 
 .navbar {
@@ -125,4 +127,49 @@ h4 {
 
 .videoLink {
     padding: 5px;
+}
+
+@media (max-width:1000px) {
+    
+.webLinks,
+.resourceLinks,
+.charityCauses {
+    display: flex;  
+    justify-content: center;
+    justify-items: space-around;  
+    flex-wrap: wrap;
+    padding: 10px;
+    /* border: 1px solid red; for debugging */
+}
+
+#memeLink,
+#imgLink {
+    display: block;
+    max-height: 150px;
+    max-width: 150px;   
+    height: auto;
+    width: auto;
+    padding: 10px; 
+    border-radius: 15px;
+}
+
+.videoLink {
+    margin-bottom: 30px;
+}
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .youtube-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
 }
