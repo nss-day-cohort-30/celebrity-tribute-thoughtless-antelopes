@@ -1,4 +1,6 @@
-
+* {
+ margin: 0%
+}
 .navbar {
     background-color: #A6808C;
     overflow: hidden;
@@ -31,4 +33,16 @@ body {
     margin: 0%;
     background-image: url("http://the-talks.com/wp-content/uploads/2016/10/Danny2.jpg");
     background-color: #706677;
+    font-family: sans-serif;
    }
+
+.index__quote {
+  margin-top: 10%;
+  font-size: 2.5cm;
+  opacity: 0.2;
+}
+.quote__name {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5cm;
+}
