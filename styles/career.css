@@ -36,7 +36,7 @@
   
 
 body {
-     background-color: #565264;
+     background-color: #706677;
      color: #D6CFCB;
      font-family: sans-serif;
     margin: 0%;
@@ -69,14 +69,23 @@ flex-wrap: wrap;
 h1 {
     margin-top: 100px;
     display: flex;
+    font-family: verdana;
+    font-size: 4em;
     justify-content: center;
     color: #CCB7AE;
+    border-bottom-style: solid;
+    border-bottom-width: 9px;
+    border-bottom-color: #565264;
 }
 
 h2 {
     display: flex;
     justify-content: center;
     color: #CCB7AE;
+    background-color: #565264;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCB7AE;
 }
 
 h3 {
