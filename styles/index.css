@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
   top: 0%;
+  box-shadow: 2px 2px 20px black;
   opacity: 0.6;
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 60%;
@@ -54,4 +55,21 @@ body {
   display: flex;
   justify-content: center;
   font-size: 1.5cm;
+}
+
+.footer-container {
+  background-color: #A6808C;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon > a > img {
+  height: 20px;
+  margin: 10px;
 }

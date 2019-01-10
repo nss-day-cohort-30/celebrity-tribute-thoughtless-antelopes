@@ -244,3 +244,14 @@ border: 0;
     }
 
 }
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .footer-icon > a > img {
+    height: 20px;
+    margin: 10px;
+ }
+ 

@@ -5,6 +5,7 @@
     overflow: hidden;
     width: 100%;
     position: fixed;
+    box-shadow: 2px 2px 20px black;
     top: 0%;
     opacity: 0.6;
     border-bottom-left-radius: 0%;
@@ -106,3 +107,13 @@ h3 {
 .extra {
     margin-bottom: 60px
 }
+.footer-icon {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .footer-icon > a > img {
+    height: 20px;
+    margin: 10px;
+ }
+ 

@@ -3,7 +3,7 @@
 }
 body {
     font-family: sans-serif;
-    margin: 7px;
+    margin: 0px;
     padding: 0;
     background-color: rgba(86, 82, 100, 0.7);
   }
@@ -14,6 +14,7 @@ body {
     width: 100%;
     position: fixed;
     top: 0%;
+    box-shadow: 2px 2px 20px black;
     opacity: 0.6;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 60%;
@@ -189,3 +190,13 @@ body {
      bottom: 0px;
      width: 100px;
  }
+ .footer-icon {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .footer-icon > a > img {
+    height: 20px;
+    margin: 10px;
+ }
+ 
